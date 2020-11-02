@@ -1,0 +1,9 @@
+skillsanta_dict={
+    'name':'sachin',
+    'age':20,
+    'salary':2000,
+    'city':'newdelhi'}
+#old_key='city'
+#new_key='location'
+skillsanta_dict['location']=skillsanta_dict.pop('city')
+print(skillsanta_dict)
